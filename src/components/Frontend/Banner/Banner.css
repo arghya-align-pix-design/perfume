@@ -1,0 +1,21 @@
+/* Banner.css */
+.banner {
+  position: relative;
+  width: 100%;
+}
+
+.carousel-item {
+  height: 400px; /* Set a fixed height for uniformity */
+}
+
+.carousel-item img {
+  object-fit: cover; /* Ensures images cover the carousel area */
+  height: 100%; /* Make sure images cover the height */
+}
+
+/* Optional styles for the carousel caption */
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  padding: 1rem;
+  border-radius: 5px;
+}
